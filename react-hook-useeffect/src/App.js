@@ -1,12 +1,11 @@
+import React from "react";
 import "./App.css";
-import HookCounterOne from "./components/HookCounterOne";
-import HookMouse from "./components/HookMouse";
-import MouseContainer from "./components/MouseContainer";
+import CounterThree from "./components/CounterThree";
 
 function App() {
   return (
     <div className="App">
-      <MouseContainer />
+      <CounterThree />
     </div>
   );
 }
