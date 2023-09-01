@@ -29,7 +29,10 @@ export default function DataFetching() {
       <button type="button" onClick={handleClick}>
         Fetch Post
       </button>
-      <div>{post.title}</div>
+      <div>
+        {post.id}
+        {post.title}
+      </div>
       {/* <ul>
         {posts.map((post) => (
           <li key={post.id}>{post.title}</li>
