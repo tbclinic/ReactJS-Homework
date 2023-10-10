@@ -12,29 +12,21 @@ export default function HookCounterTwo() {
   };
 
   return (
-    <div align="center">
+    <div align='center'>
       Count: {count} <br />
-      <Button size="lg" color="primary" onClick={() => setCount(initialCount)}>
+      <Button size='lg' color='primary' onClick={() => setCount(initialCount)}>
         Reset
       </Button>
       {"      "}
-      <Button
-        size="lg"
-        color="primary"
-        onClick={() => setCount((prevCount) => prevCount + 1)}
-      >
+      <Button size='lg' color='primary' onClick={() => setCount((prevCount) => prevCount + 1)}>
         Increment
       </Button>
       {"      "}
-      <Button
-        size="lg"
-        color="primary"
-        onClick={() => setCount((prevCount) => prevCount - 1)}
-      >
+      <Button size='lg' color='primary' onClick={() => setCount((prevCount) => prevCount - 1)}>
         Decrement
       </Button>
       {"      "}
-      <Button size="lg" color="primary" onClick={incrementFive}>
+      <Button size='lg' color='primary' onClick={incrementFive}>
         Increment 5
       </Button>
     </div>

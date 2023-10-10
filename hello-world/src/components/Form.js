@@ -30,18 +30,10 @@ class Form extends Component {
       <div>
         Form
         <form onSubmit={this.handleSubmit}>
-          <input
-            onChange={this.handleChange}
-            type="text"
-            value={this.state.firstname}
-          ></input>
+          <input onChange={this.handleChange} type='text' value={this.state.firstname}></input>
 
-          <input
-            value={this.state.lastname}
-            type="text"
-            onChange={this.handleLastNameChange}
-          ></input>
-          <button type="submit">Submit</button>
+          <input value={this.state.lastname} type='text' onChange={this.handleLastNameChange}></input>
+          <button type='submit'>Submit</button>
         </form>
       </div>
     );
